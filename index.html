@@ -18,49 +18,64 @@
     />
 
     <!-- STYLE SHEETS -->
-    <link href="css/styles.css" rel="stylesheet"/>
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
     <!-- HEADER HERE -->
-    <img>
-      <img src="images/SAVlogoWHITE.svg" width="100px" height="auto">
-    </header>
+    <header>
+      <a href="#"><img src="images/SAVWhiteLogo.png" /></a>
 
-    <!-- NAVIGATION HERE -->
-    <nav class="clearfix">
-      <ul>
-        <li><a href="#">About</a></li>
-        <li class="active"><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Case Studies</a></li>
-      </ul>
-    </nav>
+      <!-- NAVIGATION HERE -->
+      <nav class="clearfix">
+        <button class="menuBtn">
+          <p class="menuText">MENU</p>
+          <i class="fa-solid fa-x" id="closeIcon"></i>
+        </button>
+        <ul class="menu">
+          <li><a href="#">About</a></li>
+          <li class="active"><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Case Studies</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- CONTENT HERE -->
     <main>
       <div id="introText">
-      <h1 id="meet">MEET</h1>
-      <div id="outerSav">
-        <h1 class="savHilton">SAVANNAH</h1>
-        <h1 class="savHilton">HILTON</h1>
+        <h1 id="meet">MEET</h1>
+        <div id="outerSav">
+          <h1 class="savHilton">SAVANNAH</h1>
+          <h1 class="savHilton">HILTON</h1>
+        </div>
       </div>
-    </div>
       <p id="codeCreator">Coding Creator</p>
       <div class="buttons">
-      <button>PORTFOLIO</button>
-      <button>CONTACT ME</button>
+        <button><a href="#">PORTFOLIO</a></button>
+        <button><a href="#">CONTACT ME</a></button>
       </div>
-    <div class="icons">
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-square-github"></i>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-regular fa-envelope"></i>
-    </div>
+      <div class="icons">
+        <a href="https://www.instagram.com/savcode.co/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://github.com/savannahcode"
+          ><i class="fa-brands fa-square-github"></i
+        ></a>
+        <a href="www.linkedin.com/in/savannah-hilton"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="mailto: sav@savcode.co"
+          ><i class="fa-regular fa-envelope"></i
+        ></a>
+      </div>
     </main>
 
     <!-- FOOTER HERE -->
     <footer>&copy; 2023 &bull; Savannah Hilton &bull;</footer>
     <script src="js/scripts.js"></script>
-    <script src="https://kit.fontawesome.com/77eefe8645.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/77eefe8645.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

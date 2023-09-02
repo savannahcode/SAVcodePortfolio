@@ -1,19 +1,18 @@
-// what is the path to the JSON file?
-const apiURL = ""
+const menu = document.querySelector(".menu")
+const menuText = document.querySelectorAll(".menuText")
+const closeIcon = document.querySelector("#closeIcon")
+const menuBtn = document.querySelector(".menuBtn")
 
-//Go fetch it and then wait for a response.
-fetch(apiURL)
-  .then((response) => response.json())
-  .then((myList) => {
-    //Once it comes back, display it to the console.
-    console.log(myList);
-    
-    
-    
-    
-    
-    
-    
-    
-    
-}); //end of "then" fat arrow function
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu")
+    closeIcon.style.display = "none"
+    menuText.style.display = "block"
+  } else {
+    menu.classList.add("showMenu")
+    closeIcon.style.display = "block"
+    menuText.style.display = "none"
+  }
+}
+
+menuBtn.addEventListener("click", toggleMenu)
