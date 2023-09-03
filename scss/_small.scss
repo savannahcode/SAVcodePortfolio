@@ -58,17 +58,20 @@ header {
   }
   
   /* Position the content inside the overlay */
-  .menu {
+  nav .menu {
     position: relative;
     top: 25%;
     width: 100%;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.9);
-    li{
-    list-style-type: none;
-    text-decoration: none;
+    background-color: transparent; /* Make the menu content background transparent */
+    li {
+        list-style-type: none;
+        text-decoration: none;
+        a {
+            background-color: transparent;
+        }
     }
-  }
+}
 
   
   /* The navigation links inside the overlay */
@@ -79,6 +82,7 @@ header {
     color: #f1f1f1;
     display: block;
     transition: 0.3s;
+    background-color: transparent;
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -110,14 +114,32 @@ main {
 h1{
     font-size: 3.75rem;
 }
+@keyframes meetSlide {
+    from {translate: none;}
+    to {translate:30%}
+  }
 #meet{
     text-align: left;
     margin: 0 0 .6em 0;
+    animation-name: meetSlide;
+    animation-duration: 8s;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
+@keyframes savSlide {
+    from {translate: none;}
+    to {translate: -30%}
+  }
 .savHilton{
     text-align: right;
     margin: 0;
     line-height: .7em;
+    animation-name: savSlide;
+    animation-duration: 8s;
+    animation-timing-function:ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 #introText{
     margin: 2em 1em 0 1em;
@@ -145,12 +167,18 @@ button{
     text-decoration: underline .07em;
     text-underline-offset: .2em;
     margin-bottom: 1.3em;
-}
+    a{
+        background-color: #000;
+        transition: .6s ease-out;
+        padding: .1em .3em;
+    }
 }
 // animation -- NOT WORKING
-button:hover{
-    opacity: 1;
-    transition: opacity 2s linear;
+button a:hover{
+    transition: .6s ease-in;
+    background-color: #fff;
+    color:#000
+}
 }
 // end of underline animation
 
