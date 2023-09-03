@@ -17,6 +17,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- BODY --------------*/
 body {
+    overflow-x: hidden;
     font-size: 1rem;
     font-family: Verdana, sans-serif;
     min-height: 100vh;
@@ -30,7 +31,7 @@ header {
     display: flex;
     justify-content: space-between;
     img{
-        height: 5em;
+        height: 2.5em;
         width: auto;
         margin: 1em 0 0 1em;
     }

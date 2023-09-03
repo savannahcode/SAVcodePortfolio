@@ -4,7 +4,9 @@
 } */
 
 /*----------- BODY --------------*/
-
+body{
+        overflow-x: hidden;
+}
 
 .navAndHeader{
         display: flex;
@@ -16,7 +18,7 @@ header {
         align-items: center;
         justify-content: space-between;
         img {
-          width: 12.5em;
+          width: 10.5em;
           height: auto;
         }
         .menuText {
@@ -45,12 +47,14 @@ nav {
           margin: 0;
           li {
             /* top right bottom left*/
-            padding: 0 1.2em 0;
+            margin: 0 1.2em 0;
             a {
               color: #eee;
               text-decoration: none;
               font-size: 2.25rem;
               text-align: center;
+              padding-bottom: 0;
+              margin-bottom: 1em;
             }
           }
           li a:hover {
@@ -72,17 +76,31 @@ nav {
 /*----------- MAIN --------------*/
 main{
 
-        #introText h1{
+        #introText{
+                margin-top:.7em;
+        h1{
                 font-size: 6.25em;
         }
+}       
         #meet{
                 margin: 0;
         }
+        .buttons button{
+                margin-bottom: .5em;
+        }
+        .icons{
+                margin-top: .7em;
         i{
                 font-size: 3.75em;
+                margin: 0 .6em;
+        }
         }
         #codeCreator{
                 font-size: 2.5em;
+                /* 
+                margin: top, right, bottom, left; 
+                */
+                margin: .5em .5em .8em .6em;
         }
         .buttons{
                 font-size: 3.44em;
@@ -91,4 +109,6 @@ main{
 
 
 /*----------- FOOTER --------------*/
-    
+    footer{
+        margin-top: 1.7em;
+    }
