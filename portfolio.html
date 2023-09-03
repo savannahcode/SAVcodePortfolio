@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="SAV's Portfolio and Freelance Business Website: Portfolio"
+    />
+    <meta name="author" content="Savannah Hilton" />
+
+    <title>SAV CODE: Portfolio</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- STYLE SHEETS -->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- HEADER HERE -->
+    <div class="navAndHeader">
+      <header>
+        <a href="index.html"><img src="images/SAVWhiteLogo.png" /></a>
+        <p onclick="openNav()" class="menuText">MENU</p>
+      </header>
+
+      <!-- NAVIGATION HERE -->
+      <nav class="clearfix overlay" id="myNav">
+        <a href="javascript:void(0)" id="closeIcon" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <!-- Overlay content -->
+        <ul class="menu">
+          <li><a href="about.html" onclick="closeNav()">About</a></li>
+          <li class="active"><a href="#" onclick="closeNav()">Portfolio</a></li>
+          <li>
+            <a href="caseStudies.html" onclick="closeNav()">Case Studies</a>
+          </li>
+          <li>
+            <a href="contact.html" onclick="closeNav()">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- CONTENT HERE -->
+    <main>
+      <h1>PORTFOLIO</h1>
+
+      <div class="portfolio">
+        <button>
+          <a href="https://carnelianwater.com/"
+            ><img src="images/CWS.png" alt="Carnelian Water Services" />
+            <p>Carnelian Water Services</p></a
+          >
+        </button>
+        <button>
+          <a href="https://dgm2740hilton.netlify.app/capstoneproject/"
+            ><img src="images/AFHK.png" alt="Action For Healthy Kids" />
+            <p>Action For Healthy Kids</p></a
+          >
+        </button>
+        <button>
+          <a href="https://peaceful-madeleine-9f287e.netlify.app/"
+            ><img src="images/TypeScriptSite.png" alt="TypeScript Site" />
+            <p>TypeScript Project</p></a
+          >
+        </button>
+        <button>
+          <a href="https://weddingcode.co/"
+            ><img src="images/weddingCode.png" alt="Weddingcode.co" />
+            <p>Weddingcode.co</p></a
+          >
+        </button>
+        <button>
+          <a href="https://weddingcode.co/"
+            ><img
+              src="images/prestosavSite.png"
+              alt="Preston & Savannah Wedding Website"
+            />
+            <p>Preston & Savannah Wedding Website</p></a
+          >
+        </button>
+      </div>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>&copy; 2023 &bull; Savannah Hilton &bull;</footer>
+    <!--SCRIPTS HERE-->
+    <script src="js/scripts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/77eefe8645.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

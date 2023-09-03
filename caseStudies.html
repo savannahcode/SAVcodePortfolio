@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="SAV's Portfolio and Freelance Business Website: case Studies"
+    />
+    <meta name="author" content="Savannah Hilton" />
+
+    <title>SAV CODE: Case Studies</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- STYLE SHEETS -->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- HEADER HERE -->
+    <div class="navAndHeader">
+      <header>
+        <a href="index.html"><img src="images/SAVWhiteLogo.png" /></a>
+        <p onclick="openNav()" class="menuText">MENU</p>
+      </header>
+
+      <!-- NAVIGATION HERE -->
+      <nav class="clearfix overlay" id="myNav">
+        <a href="javascript:void(0)" id="closeIcon" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <!-- Overlay content -->
+        <ul class="menu">
+          <li><a href="about.html" onclick="closeNav()">About</a></li>
+          <li><a href="portfolio.html" onclick="closeNav()">Portfolio</a></li>
+          <li class="active">
+            <a href="#" onclick="closeNav()">Case Studies</a>
+          </li>
+          <li>
+            <a href="contact.html" onclick="closeNav()">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- CONTENT HERE -->
+    <main>
+      <h1>CASE STUDIES</h1>
+
+      <div class="caseStudies">
+        <a id="CWScaseStudy"><button>Carnelian Water Services</button></a>
+        <a id="AFHKcaseStudy"><button>Action For Healthy Kids</button></a>
+        <a id="UVURcaseStudy"><button>UVU&apos;s Registrar&apos;s Website</button></a>
+        <a id="portfolioCaseStudy"><button>Portfolio Design & Code</button></a>
+        <a id="weddingCaseStudy"><button>Weddingcode.co</button></a>
+        <a id="pposterchilddCaseStudy"><button>Pposterchildd Art Portfolio</button></a>
+      </div>
+
+      <div id="CWScaseStudy"><h2>Carnelian Water Services</h2></div>
+      <div id="AFHKcaseStudy"><h2>Action For Healthy Kids</h2></div>
+      <div id="UVURcaseStudy"><h2>UVU's Registrar's Website</h2></div>
+      <div id="portfolioCaseStudy"><h2>Portfolio Design & Code</h2></div>
+      <div id="weddingCaseStudy"><h2>Weddingcode.co</h2></div>
+      <div id="pposterchilddCaseStudy"><h2>Pposterchildd Art Portfolio</h2></div>
+      <div>
+        <h2>THANK YOU FOR READING MY CASE STUDIES!<h2>
+            <p>I would love to share my web development journey with you. Feel free to contact me to network, work together, or enlist my services. I&apos;m happy to help and connect.</p>
+            <p>- SAV</p>
+    </div>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>&copy; 2023 &bull; Savannah Hilton &bull;</footer>
+    <!--SCRIPTS HERE-->
+    <script src="js/scripts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/77eefe8645.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

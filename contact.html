@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="SAV's Portfolio and Freelance Business Website: Contact"
+    />
+    <meta name="author" content="Savannah Hilton" />
+
+    <title>SAV CODE: Contact</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- STYLE SHEETS -->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- HEADER HERE -->
+    <div class="navAndHeader">
+      <header>
+        <a href="index.html"><img src="images/SAVWhiteLogo.png" /></a>
+        <p onclick="openNav()" class="menuText">MENU</p>
+      </header>
+
+      <!-- NAVIGATION HERE -->
+      <nav class="clearfix overlay" id="myNav">
+        <a href="javascript:void(0)" id="closeIcon" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <!-- Overlay content -->
+        <ul class="menu">
+          <li><a href="about.html" onclick="closeNav()">About</a></li>
+          <li><a href="portfolio.html" onclick="closeNav()">Portfolio</a></li>
+          <li>
+            <a href="caseStudies.html" onclick="closeNav()">Case Studies</a>
+          </li>
+          <li class="active">
+            <a href="#" onclick="closeNav()">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- CONTENT HERE -->
+    <main>
+      <h1>CONTACT</h1>
+
+      <div class="icons">
+        <a href="https://www.instagram.com/savcode.co/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://github.com/savannahcode"
+          ><i class="fa-brands fa-square-github"></i
+        ></a>
+        <a href="www.linkedin.com/in/savannah-hilton"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="mailto: sav@savcode.co"
+          ><i class="fa-regular fa-envelope"></i
+        ></a>
+      </div>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>&copy; 2023 &bull; Savannah Hilton &bull;</footer>
+    <!--SCRIPTS HERE-->
+    <script src="js/scripts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/77eefe8645.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
