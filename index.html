@@ -22,15 +22,19 @@
   </head>
   <body>
     <!-- HEADER HERE -->
-    <header>
-      <a href="#"><img src="images/SAVWhiteLogo.png" /></a>
+    <div class="navAndHeader">
+      <header>
+        <a href="#"><img src="images/SAVWhiteLogo.png" /></a>
+        <p onclick="openNav()" class="menuText">MENU</p>
+      </header>
 
       <!-- NAVIGATION HERE -->
-      <nav class="clearfix">
-        <button class="menuBtn">
-          <p class="menuText">MENU</p>
-          <i class="fa-solid fa-x" id="closeIcon"></i>
-        </button>
+      <nav class="clearfix overlay" id="myNav">
+        <a href="javascript:void(0)" id="closeIcon" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <!-- Overlay content -->
         <ul class="menu">
           <li><a href="#">About</a></li>
           <li class="active"><a href="#">Portfolio</a></li>
@@ -38,7 +42,7 @@
           <li><a href="#">Case Studies</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
 
     <!-- CONTENT HERE -->
     <main>
@@ -72,6 +76,7 @@
 
     <!-- FOOTER HERE -->
     <footer>&copy; 2023 &bull; Savannah Hilton &bull;</footer>
+    <!--SCRIPTS HERE-->
     <script src="js/scripts.js"></script>
     <script
       src="https://kit.fontawesome.com/77eefe8645.js"

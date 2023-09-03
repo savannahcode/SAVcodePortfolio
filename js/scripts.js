@@ -1,5 +1,15 @@
-const menu = document.querySelector(".menu")
-const menuText = document.querySelectorAll(".menuText")
+/* Open */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%"
+}
+
+/* Close */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%"
+}
+
+/*const menu = document.querySelector(".menu")
+const menuText = document.querySelectorAll("p .menuText")
 const closeIcon = document.querySelector("#closeIcon")
 const menuBtn = document.querySelector(".menuBtn")
 
@@ -15,4 +25,4 @@ function toggleMenu() {
   }
 }
 
-menuBtn.addEventListener("click", toggleMenu)
+menuBtn.addEventListener("click", toggleMenu)*/
