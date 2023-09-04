@@ -183,6 +183,8 @@ button a:hover{
 
 .icons{
     margin: 1.8em 1em .2em 1em;
+
+}
 i{
     /* 
     margin: top, right, bottom left; 
@@ -191,7 +193,8 @@ i{
     color: #fff;
     font-size: 3.3rem;
 }
-}
+
+
 
 .caseStudies{
     img{
@@ -246,6 +249,42 @@ i{
             font-size: 2rem;
             margin-top: .3rem;
         }
+}
+.contact{
+    h1{
+        margin-bottom: 0;
+    }
+    h3{
+        margin: 0 0 .7rem 0;
+        font-size: 1.5rem;
+    }
+}
+.contactDiv{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    h2{
+        margin: 1.75rem 0 .2rem 0;
+        font-size: 1.7rem;
+    }
+    button{
+        margin: 0 auto 1rem auto;
+        width: 19rem;
+        border-radius: .4rem;
+        border: solid .15rem #fff;
+        a{
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            p{
+                font-size: 1.75rem;
+                margin: 1.5rem .8rem .5rem 1.3rem;
+            }
+            i{
+                margin: .7rem 0 .7rem .5rem;
+            }
+        }
+    }
 }
 }
 
