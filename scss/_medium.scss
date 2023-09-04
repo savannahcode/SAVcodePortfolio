@@ -29,6 +29,18 @@ main{
             margin: 0 .5rem 0 .5rem;
         }
     }
+    .about {
+        .profileImg{
+        height: 20rem;
+    }
+    .skillsIcons {
+        max-width: 50rem;
+        margin: auto;
+        img{
+        width: 7rem;
+        }
+    }
+    }
 }
 
 

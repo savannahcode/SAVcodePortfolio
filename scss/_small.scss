@@ -194,6 +194,9 @@ i{
     font-size: 3.3rem;
 }
 
+i:hover{
+    color:#818181;
+}
 
 
 .caseStudies{
@@ -311,6 +314,48 @@ Scroll to top button from: https://www.w3schools.com/howto/howto_js_scroll_to_to
   #myBtn:hover {
     background-color: rgba(60, 60, 60, 0.8);
   }
+  .about{
+    margin: auto;
+    max-width: 1024px;
+    h1{
+        margin-bottom: 0;
+    }
+    h3{
+        text-align: left;
+    }
+    p{
+        text-align: left;
+        font-family: 'Kantumruy Pro', sans-serif;
+    }
+    .intro{
+        margin: 7rem auto 3rem auto;
+    }
+    .profileImg{
+        height: 12rem;
+        width: auto;
+        float: right;
+        border-radius: .5em;
+        margin: .5rem;
+    }
+    .skillsIcons{ 
+        img{
+        width: 5.8rem;
+        height: auto;
+        margin: .6rem;
+    }
+}
+    h2{
+        margin: 3rem auto 0 auto;
+        font-size: 2rem;
+    }
+    .resume{
+        p{
+        text-align: center;
+        }
+        i{margin-bottom: 2rem;}
+        
+}   
+}
 }
 
 
