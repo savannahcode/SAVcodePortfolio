@@ -103,6 +103,29 @@ main{
         .buttons{
                 font-size: 3.44em;
         }
+        .caseStudies{
+                img{
+                        float:left;
+                        margin: 1rem;
+                }
+                .wideImg{
+                        height: 15rem;
+                        width: auto;
+                        float: left;
+                    }
+                    .tallImg{
+                        width: 15rem;
+                        height: auto;
+                        float: right;
+                    }
+                h2{
+                        font-size: 2.8rem;
+                        margin-top: 5rem;
+                }
+                p{
+                        font-size: 1.5rem;
+                }
+            }
 }
 
 

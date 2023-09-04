@@ -14,7 +14,22 @@
 
 
 /*----------- MAIN --------------*/
-
+main{
+    .caseStudyButtons{
+        max-width:62rem;
+        margin: auto;
+    }
+    .caseStudies{
+        img{
+            width: 32rem;
+        }
+    }
+    .portfolio{
+        button{
+            margin: 0 .5rem 0 .5rem;
+        }
+    }
+}
 
 
 /*----------- FOOTER --------------*/

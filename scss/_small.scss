@@ -168,7 +168,6 @@ button{
     text-underline-offset: .2em;
     margin-bottom: 1.3em;
     a{
-        background-color: #000;
         transition: .6s ease-out;
         padding: .1em .3em;
     }
@@ -196,7 +195,7 @@ i{
 
 .caseStudies{
     img{
-        width: 300px;
+        width: 18rem;
         height: auto;
     }
     p{
@@ -224,6 +223,29 @@ i{
         /*Top right bottom left*/
         padding: .6rem .6rem 0 .6rem;
     }
+}
+.thankYou{
+    margin: 5rem;
+    p{
+        text-align: left;
+    }
+}
+
+.portfolio{
+    button{
+        border: none;
+    }
+        img{
+            width: 20rem;
+            border-radius: 1rem;
+        }
+        a{
+            text-decoration: none;
+        }
+        p{
+            font-size: 2rem;
+            margin-top: .3rem;
+        }
 }
 }
 
