@@ -9,6 +9,20 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%"
 }
 
+// Function to check screen width and open navigation if needed
+function checkScreenWidth() {
+  if (window.innerWidth >= 64 * 16) {
+    // 64rem * 16px (1rem = 16px)
+    openNav()
+  }
+}
+
+// Event listener for resize
+window.addEventListener("resize", checkScreenWidth)
+
+// Call the checkScreenWidth function on page load
+checkScreenWidth()
+
 /* SCROLL UP to top button code */
 // Get the button:
 let mybutton = document.getElementById("myBtn")
