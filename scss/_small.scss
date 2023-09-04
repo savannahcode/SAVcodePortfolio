@@ -6,6 +6,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     font-family: "KhmerMN";
     src: url(../fonts/khmer-mn.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro&display=swap');
 /*----------- apply a natural box layout model to all elements --------------*/
 * {
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
@@ -53,7 +54,7 @@ header {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.95);
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -68,9 +69,7 @@ header {
     li {
         list-style-type: none;
         text-decoration: none;
-        a {
-            background-color: transparent;
-        }
+        background-color: transparent;
     }
 }
 
@@ -109,7 +108,7 @@ header {
 
 /*----------- MAIN --------------*/
 main {
-    padding: 0 2%;
+    padding: 0 4%;
     min-height: 10rem;
     text-align: center;
 h1{
@@ -193,6 +192,38 @@ i{
     color: #fff;
     font-size: 3.3rem;
 }
+}
+
+.caseStudies{
+    img{
+        width: 300px;
+        height: auto;
+    }
+    p{
+        font-family: 'Kantumruy Pro', sans-serif;
+        text-align: left;
+        margin: .2rem;
+        font-size: 1.2rem;
+    }
+    h2{
+        margin: 2rem 0 0 0;
+        font-size: 2.4rem;
+        padding-top: 1.5rem;
+    }
+}
+
+.caseStudyButtons{
+    button{
+        min-width: 19.7rem;
+        border: none;
+        border-radius: .4rem;
+        background-color: #fff;
+        font-size: 1.875rem;
+        margin: .4rem;
+        color:#000;
+        /*Top right bottom left*/
+        padding: .6rem .6rem 0 .6rem;
+    }
 }
 }
 
